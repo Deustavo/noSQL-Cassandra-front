@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script>
+        let template = Handlebars.compile(document.getElementById("macacos").innerHTML);
+    </script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Monkey Store</title>
+</head>
+<body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content _card _width_add">
+        <p class="_title">
+            Editar Matéria #1
+            <span class="close">&times;</span>
+        </p>
+        <p>Nome: </p>
+        <input value="aaaa">
+        <p>Carga Horária: </p>
+        <input>
+        <p>Professor: </p>
+        <input>
+        <div class="_button">
+            <p>Salvar alterações</p>
+        </div>
+    </div>
+
+    </div>
+    <div class="_card _width_add">
+        <p class="_title">Nova Matéria</p>
+        <p>Nome: </p>
+        <input>
+        <p>Código: </p>
+        <input>
+        <p>Carga Horária: </p>
+        <input>
+        <p>Professor: </p>
+        <input>
+        <div class="_button">
+            <p>Adicionar</p>
+        </div>
+    </div>
+    <p class="_title">Minhas Matérias</p>
+    <div class="_list">
+
+        <div class="_card _item_list">
+            <div class="_card_header">
+                <p class="_title">#1</p>
+                <div class="_card_options">
+                    <div class="_icon_option myBtn">
+                        <i class="material-icons">create</i>
+                        <p>Editar</p>
+                    </div>
+                    <div class="_icon_option _delete">
+                        <i class="material-icons">delete</i>
+                        <p>Excluir</p>
+                    </div>
+                </div>
+            </div>
+            <p>Lógica de Programação</p>
+            <p>200 horas</p>
+            <p>Luiz Hilário Garcia</p>
+        </div>
+
+        <div class="_card _item_list">
+            <div class="_card_header">
+                <p class="_title">#1</p>
+                <div class="_card_options">
+                    <div class="_icon_option myBtn">
+                        <i class="material-icons">create</i>
+                        <p>Editar</p>
+                    </div>
+                    <div class="_icon_option _delete">
+                        <i class="material-icons">delete</i>
+                        <p>Excluir</p>
+                    </div>
+                </div>
+            </div>
+            <p>Lógica de Programação</p>
+            <p>200 horas</p>
+            <p>Luiz Hilário Garcia</p>
+        </div>
+
+        <div class="_card _item_list">
+            <div class="_card_header">
+                <p class="_title">#1</p>
+                <div class="_card_options">
+                    <div class="_icon_option myBtn">
+                        <i class="material-icons">create</i>
+                        <p>Editar</p>
+                    </div>
+                    <div class="_icon_option _delete">
+                        <i class="material-icons">delete</i>
+                        <p>Excluir</p>
+                    </div>
+                </div>
+            </div>
+            <p>Lógica de Programação</p>
+            <p>200 horas</p>
+            <p>Luiz Hilário Garcia</p>
+        </div>
+    </div>
+    <script src="js/modal.js"></script>
+</body>
+</html>

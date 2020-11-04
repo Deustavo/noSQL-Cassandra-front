@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: 'Rubik', sans-serif;
+}
+
+i {
+    font-family: 'Material Icons';
+}
+
+p { margin-bottom: 4px }
+
+._card {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+._card_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+._card_options p {
+    font-size: 14px;
+    margin: 4px;
+    font-weight: bold;
+}
+
+._icon_option:hover {
+    color: #7fbeff;
+    cursor: pointer;
+}
+
+._delete { color: #ff4949 }
+
+._icon_option { display: none }
+
+._width_add {
+    width: 40vw;
+    margin-bottom: 40px;
+}
+
+._list {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+._card:hover ._icon_option { display: flex }
+
+._item_list {
+    flex: 1 0 20%;
+    margin: 10px;
+}
+
+._title{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    color: #7fbeff;
+    font-weight: bold;
+}
+
+._button {
+    background-color: #7fbeff;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+._button p {
+    margin: 12px;
+}
+
+._button:hover {
+    background-color: #6fa5dd;
+}
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
