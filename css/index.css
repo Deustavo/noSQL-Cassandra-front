@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fafafa;
+    color: #2c2c2c;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -126,4 +127,14 @@ p { margin-bottom: 4px }
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  input {
+      border-radius: 4px;
+      padding: 8px;
+      border: #2c2c2c solid 2px;
+  }
+
+  input:active, input:hover, input:focus {
+      border: #6fa5dd solid 2px;
   }
